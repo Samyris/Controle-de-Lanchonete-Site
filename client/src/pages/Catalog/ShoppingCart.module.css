@@ -1,0 +1,56 @@
+/* ShoppingCart.module.css */
+
+.shoppingCartContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh; /* Adjust the height as needed */
+    background-color: var(--gray-800); /* Background color using global variable */
+    color: var(--gray-100); /* Text color using global variable */
+   padding-top: 50px;
+   margin: 100px 500px 500px 500px;
+  }
+  
+  .cartItems {
+    list-style: none;
+    padding: 0;
+    width: 100%; /* Adjust the width as needed */
+  }
+  
+  .cartItem {
+    margin-bottom: 10px;
+    border: 1px solid var(--gray-700); /* Border color using global variable */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .total {
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  /* Example of specific styling for a black div */
+  .black-div {
+    background-color: var(--black); /* Black background color using global variable */
+    color: var(--white); /* White text color using global variable */
+    padding: 20px;
+    margin-top: 10px;
+    width: 80%; /* Adjust the width as needed */
+  }
+  
+  .payButton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--green-500);
+    color: var(--white);
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .payButton:hover {
+    background-color: var(--green-300);
+  }

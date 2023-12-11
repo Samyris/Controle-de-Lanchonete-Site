@@ -1,0 +1,56 @@
+
+.page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgb(255, 30, 0);
+    
+    
+  }
+
+ .title{
+    color: var(--gray-800);
+    padding-left: 150px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+   
+    
+ }
+ .odd {
+    background-color: #f0f0f0;
+    color: var(--gray-800);
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    margin-left: 150px;
+    margin-right: 800px;
+    text-align: justify;
+
+
+  }
+  
+  .even {
+    background-color: #ffffff;
+    color: var(--gray-800);
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    margin-left: 150px;
+    margin-right: 800px;
+  }
+  button {
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+
+  }
+  .buttonComprar{
+    padding-bottom: 10px;
+    padding-left: 150px;
+    margin: 30px;
+    
+
+  }
